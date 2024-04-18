@@ -4,15 +4,15 @@
       <img alt="Vue logo" src="./assets/logo.png" width="110" height="100">
     </div>
     
-    <MainLandingPageVue/>
+    <TextAdventurerVue/>
   </div>
 </template>
 
 <script setup>
-import MainLandingPageVue from "./pages/MainLandingPage.vue";
+import TextAdventurerVue from "./IntroduceTextAdventurer/MainPage.vue";
 </script>
 
-<style>
+<style scope>
 #app {
   text-align: center;
   line-height: 40px;
@@ -20,13 +20,16 @@ import MainLandingPageVue from "./pages/MainLandingPage.vue";
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+body{
   background-color: #dff7e5;
 }
 
 /* Mobile */
-@media (max-width:600px){
+@media (max-width:400px){
   .main-body{
-    width: 400px;
+    width: 360px;
   }
 }
 

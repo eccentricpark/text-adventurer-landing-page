@@ -1,12 +1,11 @@
 {
-  "name": "text-adventurer",
+  "name": "textAdventurer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "dev" : "vue-cli-service serve --open --port 3000 --host 0.0.0.0 --disableHostCheck true"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",

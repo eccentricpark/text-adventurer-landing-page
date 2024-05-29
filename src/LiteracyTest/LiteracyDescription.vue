@@ -1,20 +1,21 @@
 <template>
   <div class="inner">
     <div class="void-area"></div>
-    <div>
-      <video class="product-video" controls>
-        <source src="../assets/video.mp4" type="video/mp4"/>
-      </video>
-    </div>
     <div class="text-article">
-      <p>
-        모르는 단어도 쉽게 이해할 수 있어요.<br>
-      </p>
-      <p>
-        검색하기 귀찮죠?<br>
-        클릭해서 빠르게 설치하세요!
-      </p>
-      <a href="https://chromewebstore.google.com/detail/%EB%A7%90%EA%B8%80%ED%83%90%ED%97%98%EB%8C%80/cpmppelifogbdfkijkfnkofmeibdmlia?hl=ko"><h3>말글탐험대 설치하러 가기</h3></a>
+      <h2>
+        문해력이란 글을 읽고 이해하여<br>
+        활용하는 능력인데요
+      </h2><br><br>
+
+      <h2>왜, 아이가 <span class="text-blue">휴대폰</span>을 좋아할까요?</h2>
+      <h2>왜, 아이가 <span class="text-blue">게임</span>을 좋아할까요?</h2>
+      <h2>왜, 아이가 <span class="text-red big">독서</span>와 <span class="text-red big">공부</span>는 싫어할까요?</h2><br>
+
+      <h2>근본적으로 생각해보셨나요?</h2><br><br>
+      <h2>바로 '<span class="text-red big">문해력</span>' 이 부족하여</h2>
+      <h2>나타나는 문제입니다</h2><br>
+      <h2>아이를 포기하고 싶지 않다면</h2>
+      <h2>문해력부터 해결해야 합니다</h2>
     </div>
     <div class="void-area"></div>
   </div>
@@ -40,12 +41,8 @@
     width:inherit;
   }
 
-  .product-video{
-    width: 300px;
-  }
-
   .void-area{
-    height: 150px;
+    height: 75px;
   }
   
   .text-article{
@@ -57,13 +54,6 @@
     height: 200px;
   }
 
-  h2{
-    font-size: 30pt;
-  }
-
-  p{
-    font-size: 14pt;
-  }
 }
 
 
@@ -83,10 +73,6 @@
     width:inherit;
   }
 
-  .product-video{
-    width: 1000px;
-  }
-  
   .void-area{
     height: 150px;
   }
@@ -96,20 +82,12 @@
   }
 
   .literacy-image{
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
   }
-  
-  h2{
+
+  .big{
     font-size: 30pt;
-  }
-
-  h3{
-    font-size: 20pt;
-  }
-
-  p{
-    font-size: 14pt;
   }
 }
 

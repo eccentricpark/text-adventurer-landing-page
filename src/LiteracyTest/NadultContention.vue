@@ -1,15 +1,15 @@
 <template>
   <div class="inner">
     <div class="void-area"></div>
-    <h2>🚩 지금 탐험을 시작하세요!</h2>
     <div>
-      <img class="literacy-image" alt="literacy" src="../assets/happy_child.png">
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/nadult.png">
     </div>
     <div class="text-article">
-      <p>
-        아이의 문해력이라는 잃어버린 보물을 찾기 위한 대모험에 지금 바로 동참하세요. <br>
-      </p>
-      <h1><a href="https://chromewebstore.google.com/detail/%EB%A7%90%EA%B8%80%ED%83%90%ED%97%98%EB%8C%80/cpmppelifogbdfkijkfnkofmeibdmlia?hl=ko&authuser=0" target="_blank">[탐험대 가입하기]</a></h1>
+      <h2>유튜브 너덜트 사건을 아시나요?</h2>
+      <h3><span class="text-blue">'모집인원 0명'</span></h3><br>
+      <h3>사회적 이슈로 떠오르고 있는 이것</h3><br><br>
+      <h3><span class="text-red big">문.해.력.</span>입니다</h3><br><br>
+
     </div>
     <div class="void-area"></div>
   </div>
@@ -36,7 +36,11 @@
   }
 
   .void-area{
-    height: 150px;
+    height: 75px;
+  }
+  
+  .text-article{
+    margin: 10px;
   }
 
   .literacy-image{
@@ -44,19 +48,13 @@
     height: 200px;
   }
 
-  .text-article{
-    margin: 10px;
-  }
-
-  h2{
-    font-size: 20pt;
-  }
-
-  p{
-    font-size: 14pt;
+  .big{
+    font-size: 18pt;
   }
 }
 
+
+/*PC */
 @media (min-width:600px){
   .div-row{
     display: flex;
@@ -76,21 +74,18 @@
     height: 150px;
   }
 
+  .text-article{
+    margin: 10px;
+  }
+
   .literacy-image{
     width: 600px;
     height: 400px;
   }
 
-  .text-article{
-    margin: 10px;
-  }
-
-  h2{
+  .big{
     font-size: 30pt;
   }
-
-  p{
-    font-size: 14pt;
-  }
 }
+
 </style>

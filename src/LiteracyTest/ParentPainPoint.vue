@@ -1,14 +1,21 @@
 <template>
   <div class="inner">
     <div class="void-area"></div>
-    <h2>제목을 입력하세요.</h2>
     <div>
-        <img class="literacy-image" alt="literacy" src="../assets/literacy.png">
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint1.png">
+    </div>
+    <div>
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint2.png">
+    </div>
+    <div>
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint3.png">
     </div>
     <div class="text-article">
-      <p>
-        내용을 입력하세요.
-      </p>
+      <h2>혹시 <span class="text-red big">뜨.끔.</span>하셨나요?</h2>
+      <br>
+      <h2>왜 잔소리로 해결 안될까요?</h2>
+      <br><br>
+      <h2>당장 <span class="text-red big">이것</span>부터 해결해야 합니다</h2>
     </div>
     <div class="void-area"></div>
   </div>
@@ -35,7 +42,7 @@
   }
 
   .void-area{
-    height: 150px;
+    height: 75px;
   }
   
   .text-article{
@@ -47,13 +54,6 @@
     height: 200px;
   }
 
-  h2{
-    font-size: 30pt;
-  }
-
-  p{
-    font-size: 14pt;
-  }
 }
 
 
@@ -82,16 +82,7 @@
   }
 
   .literacy-image{
-    width: 600px;
-    height: 400px;
-  }
-  
-  h2{
-    font-size: 30pt;
-  }
-
-  p{
-    font-size: 14pt;
+    width: 1000px;
   }
 }
 

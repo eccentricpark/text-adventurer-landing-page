@@ -1,16 +1,15 @@
 <template>
   <div class="inner">
     <div class="void-area"></div>
-    <h2>🚀 마주한 도전, 함께 넘어서다</h2>
     <div>
-      <img class="literacy-image" alt="literacy" src="../assets/family.png">
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/nadult.png">
     </div>
     <div class="text-article">
-      <p>
-        말글탐험대는 정보의 바다에서 아이들이 스스로 문제를 인지하고, <br>
-        스스로 다양한 난관들을 용감히 넘어설 수 있도록 돕습니다. <br><br>
-        함께라면 어떠한 도전도 극복할 수 있습니다.
-      </p>
+      <h2>유튜브 너덜트 사건을 아시나요?</h2>
+      <h3><span class="text-blue">'모집인원 0명'</span></h3><br>
+      <h3>사회적 이슈로 떠오르고 있는 이것</h3><br><br>
+      <h3><span class="text-red big">문.해.력.</span>입니다</h3><br><br>
+
     </div>
     <div class="void-area"></div>
   </div>
@@ -37,7 +36,11 @@
   }
 
   .void-area{
-    height: 150px;
+    height: 75px;
+  }
+  
+  .text-article{
+    margin: 10px;
   }
 
   .literacy-image{
@@ -45,19 +48,13 @@
     height: 200px;
   }
 
-  .text-article{
-    margin: 10px;
-  }
-
-  h2{
-    font-size: 20pt;
-  }
-
-  p{
-    font-size: 14pt;
+  .big{
+    font-size: 18pt;
   }
 }
 
+
+/*PC */
 @media (min-width:600px){
   .div-row{
     display: flex;
@@ -77,23 +74,18 @@
     height: 150px;
   }
 
-  .literacy-image{
-    width: 600px;
-    height: 500px;
-  }
-
   .text-article{
     margin: 10px;
   }
 
-  h2{
+  .literacy-image{
+    width: 600px;
+    height: 400px;
+  }
+
+  .big{
     font-size: 30pt;
   }
-
-  p{
-    font-size: 14pt;
-  }
 }
-
 
 </style>

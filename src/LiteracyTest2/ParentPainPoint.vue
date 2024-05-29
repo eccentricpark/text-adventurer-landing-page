@@ -2,15 +2,20 @@
   <div class="inner">
     <div class="void-area"></div>
     <div>
-        <img class="literacy-image" alt="literacy" src="../assets/prototype.png">
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint1.png">
+    </div>
+    <div>
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint2.png">
+    </div>
+    <div>
+      <img class="literacy-image" alt="literacy" src="../assets/literacy_test/painpoint3.png">
     </div>
     <div class="text-article">
-      <h3>말글탐험대</h3>
-      <p>아이들을 위한 단어 설명 프로그램</p>
-      <p>
-        이해하기 어려운 단어를 설명하고<br>
-        적절한 쉬운 단어로 변환해줘요.
-      </p>
+      <h2>혹시 <span class="text-red big">뜨.끔.</span>하셨나요?</h2>
+      <h2>당신의 잔소리 때문입니다.</h2>
+      <br><br>
+      <h2>아니라고요?</h2>
+      <h2>자신 있게 말할 수 있습니까?</h2>
     </div>
     <div class="void-area"></div>
   </div>
@@ -37,7 +42,7 @@
   }
 
   .void-area{
-    height: 40px;
+    height: 75px;
   }
   
   .text-article{
@@ -49,13 +54,6 @@
     height: 200px;
   }
 
-  h2{
-    font-size: 30pt;
-  }
-
-  p{
-    font-size: 14pt;
-  }
 }
 
 
@@ -84,20 +82,7 @@
   }
 
   .literacy-image{
-    width: 600px;
-    height: 400px;
-  }
-  
-  h2{
-    font-size: 30pt;
-  }
-
-  h3{
-    font-size: 20pt;
-  }
-
-  p{
-    font-size: 14pt;
+    width: 1000px;
   }
 }
 
